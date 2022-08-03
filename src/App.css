@@ -1,16 +1,30 @@
-button {
+
+
+body {
+    margin: 0;
+    padding-left: 80px;
+    height: 100vh;
+    width: 100vw;
+    background: url("bg.gif");
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
     margin-top: 10px;
-}
-
-label {
+  }
+  
+  label {
     margin-right: 5px;
-}
-
-#greeting {
+  }
+  
+  #greeting {
     display: inline-block;
-}
-
-.logout-btn {
+  }
+  
+  .logout-btn {
     display: inline-block;
     margin-left: 10px;
-}
+  }
